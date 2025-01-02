@@ -12,3 +12,49 @@ hr {
     width: 100%;
     margin-left: 0;
 }
+
+.navbar-brand img {
+    width: 40px;
+    height: 30px;
+}
+
+.nav-link.home {
+    color: #85be27;
+}
+
+.header-content-inner h1 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 67px;
+    text-align: center;
+    
+}
+
+.header-content-inner p {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-align: center;
+}
+
+.btn.btn-primary.btn-lg.rounded-pill {
+    color: #ffffff;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 16px;
+    background-color: #85be27;
+    padding: 18px 30px;
+    letter-spacing: 3px;
+    outline: none;
+    border: none;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   
+}
+
+.header-content-inner {
+    padding: 50px;
+   
+}
+
+
