@@ -1,6 +1,19 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: #b8886b;
+}
+
 .navbar-brand span {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     letter-spacing: 5px;
+    color: #ffffff;
 }
 
 .nav-item {
@@ -20,6 +33,29 @@ hr {
 
 .nav-link.home {
     color: #85be27;
+}
+
+header {
+   z-index: 1;
+   min-height: auto;
+   position: relative;
+   width: 100%;
+   min-height: auto;
+   text-align: center;
+   color: #fff;
+   background-image: url("https://www.quackit.com/html/templates/download/bootstrap/business-2/images/header.jpg");
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
 }
 
 .header-content-inner h1 {
@@ -45,7 +81,7 @@ hr {
     border: none;
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 80%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -53,8 +89,75 @@ hr {
 }
 
 .header-content-inner {
-    padding: 50px;
+    margin: 30px;
    
 }
 
+.header-content {
+    height: 454px;
+}
 
+.product-intro {
+    background-color: #85be27;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.row img {
+    margin-left: 350px;
+    width: 60px;
+    height: 60px;
+}
+
+.content-heading h2 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    margin: 20px;
+}
+
+.content-heading p {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    margin: 20px;
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+
+
+.container-intro {
+    padding: 70px 0;
+}
+
+
+
+
+@media only screen and (max-width: 768px) 
+    /* For mobile phones: */ {
+        .header-content-inner h1 {
+            font-size: 35px;
+            margin: 10px;
+        }
+
+        .header-content-inner p {
+            font-size: 15px;
+            margin: 2px;
+        }
+
+        .btn.btn-primary.btn-lg.rounded-pill {
+            top: 80%;
+        }
+
+        .row img {
+            margin: auto;
+            width: 60px;
+            height: 60px;
+        }
+
+        .content-heading p {
+            text-align: center;
+            margin: 30px;
+        }
+
+    }
