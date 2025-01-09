@@ -7,7 +7,7 @@ body {
 
 
 .navbar.navbar-expand-lg.navbar-light {
-    background-color: #b8886b;
+    background-color: #4a2a39;
 }
 
 .navbar-brand span {
@@ -43,7 +43,7 @@ header {
    min-height: auto;
    text-align: center;
    color: #fff;
-   background-image: url("https://www.quackit.com/html/templates/download/bootstrap/business-2/images/header.jpg");
+   background-image: url("amazing-sunset-hills-mountains.jpg");
    background-position: center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -118,31 +118,41 @@ header .header-content {
 
 .content-heading p {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    margin: 20px;
     text-align: center;
-    margin-top: 0;
     
 }
-
-
 
 .container-intro {
     padding: 70px 0;
 }
 
+.img-fluid.rounded-circle {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    padding: 70px 0;
+    
+}
+
+.item-1-header {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    margin-top: 100px;
+}
 
 
 
 @media only screen and (max-width: 768px) 
     /* For mobile phones: */ {
         .header-content-inner h1 {
-            font-size: 35px;
+            font-size: 30px;
             margin: 10px;
         }
 
         .header-content-inner p {
-            font-size: 15px;
+            font-size: 13.5px;
+            line-height: 25px;
             margin: 2px;
+            text-align: center;
         }
 
         .btn.btn-primary.btn-lg.rounded-pill {
@@ -155,9 +165,34 @@ header .header-content {
             height: 60px;
         }
 
-        .content-heading p {
-            text-align: center;
-            margin: 30px;
+        .content-heading h2 {
+            font-size: 25px;
         }
+
+        .content-heading p {
+            font-size: 15px;
+            text-align: center;
+            margin: 25px 20px 0 20px;
+            line-height: 25px;
+        }
+
+        .img-fluid.rounded-circle {
+            width: 400px;
+            height: 400px;
+            padding: 70px 20px;
+            margin: 25px 50px 0px 0;
+            
+        }
+        
+        .item-1-header, p {
+           margin: -40px 50px 0px 25px;
+        }
+
+        .lead.text-muted {
+            font-size: 14.5px;
+            line-height: 25px;
+        }
+
+        
 
     }
