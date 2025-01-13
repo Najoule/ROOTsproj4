@@ -178,6 +178,56 @@ p.lead.text-light {
     margin-left: none;
 }
 
+.ads-content h3 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ads,
+.ads h3,
+.ads a:link,
+.ads a:visited,
+.ads a:hover,
+.ads a:active {
+    color: #ffffff;
+    text-shadow: 0px 0px 40px #000000;
+    text-decoration: none;
+}
+
+.ads-content {
+    height: auto;
+    width: auto;
+    line-height: 180px;
+    text-align: center;
+}
+
+.ads-content:hover {
+    background-size: 110%; 
+    border: 10px solid rgba(255,255,255,0.3);
+    line-height: 160px;
+}
+
+.unleash.item-1 {
+    background: url("exam-school-with-student-s-taking-educational-admission-test-class-thinking-hard-writing-ans_756748-16697.jpg");
+    background-size: cover;
+	background-position: 50% 50%;
+}
+
+.item-2 {
+    background: url("worship.jpg");
+    background-size: cover;
+	background-position: 50% 50%;
+}
+
+.item-3 {
+    background: url("istock-1022048344-1024x683.jpg");
+    background-size: cover;
+	background-position: 50% 50%;
+}
+
+
 
 @media only screen and (max-width: 768px) 
     /* For mobile phones: */ {
