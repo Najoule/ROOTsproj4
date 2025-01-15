@@ -78,13 +78,13 @@ header .header-content {
     padding: 18px 30px;
     outline: none;
     border: none;
-    margin: 0;
+    margin: auto;
     position: absolute;
     top: 80%;
-    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     letter-spacing: 2px;
+
    
 }
 
@@ -126,10 +126,10 @@ header .header-content {
     padding: 70px 0;
 }
 
-.img-fluid.rounded-circle {
+.img-fluid.rounded-circle.item-1 {
     width: 400px;
     height: 400px;
-    margin-left: 100px;
+    margin-left: 130px;
     padding: 70px 0;
     
 }
@@ -139,16 +139,18 @@ header .header-content {
     margin-top: 100px;
 }
 
-.item-1-header p {
+p.lead.text-muted.item-1 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-align: left;
 }
 
-.btn.btn-success.btn-lg.rounded-pill {
+.btn.btn-success.btn-lg.rounded-pill.item-1 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #85be27;
     border: none;
     font-size: 16px;
     letter-spacing: 2px;
+    margin: auto;
 }
 
 .item-2-header {
@@ -157,9 +159,18 @@ header .header-content {
     margin-left: 130px;
 }
 
-p.lead.text-light {
-    margin-left: 100px;
+p.lead.text-light.item-2 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-align: left;
     margin-left: 130px;
+}
+
+.img-fluid.rounded-circle.item-2 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 70px 0;
+    
 }
 
 .btn.btn-light.btn-lg.rounded-pill {
@@ -168,6 +179,7 @@ p.lead.text-light {
     font-size: 16px;
     letter-spacing: 2px;
     margin-left: 130px;
+    padding: 18px;
 }
 
 .col-md-6.second-image {
@@ -218,7 +230,7 @@ div.row.ads {
 	background-position: 50% 50%;
 }
 
-.item-2 {
+.synergize.item-2 {
     background: url("worship.jpg");
     background-size: cover;
 	background-position: 50% 50%;
@@ -246,16 +258,28 @@ div.row.ads {
     margin-top: 10px;
 }
 
-.item-4-header, p {
+p.lead.text-dark.item-4 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-align: center;
 }
 
+a.btn.btn-success.btn-lg.rounded-pill {
+    background-color: #85be27;
+    margin-top: 20px;
+    margin-left: 390px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 16px;
+    border: none;
+    padding: 20px;
+    letter-spacing: 2px;
+}
 
 @media only screen and (max-width: 768px) 
     /* For mobile phones: */ {
         .header-content-inner h1 {
             font-size: 30px;
             margin: 10px;
+        
         }
 
         .header-content-inner p {
@@ -278,21 +302,21 @@ div.row.ads {
         }
 
         .content-heading h2 {
-            font-size: 25px;
+            font-size: 18px;
         }
 
         .content-heading p {
-            font-size: 15px;
+            font-size: 14px;
             text-align: center;
             margin: 25px 20px 0 20px;
             line-height: 25px;
         }
 
-        .img-fluid.rounded-circle {
+        .img-fluid.rounded-circle.center-block.item-1 {
             width: 400px;
             height: 400px;
             padding: 70px 20px;
-            margin: 25px 50px 0px 0;
+            margin: auto;
             
         }
         
@@ -305,7 +329,7 @@ div.row.ads {
             line-height: 25px;
         }
 
-        .btn.btn-success.btn-lg.rounded-pill {
+        .btn.btn-success.btn-lg.rounded-pill.item-1 {
             margin-left: 25px;
             margin-bottom: 60px;
         }
@@ -315,7 +339,7 @@ div.row.ads {
             margin-top: 60px;
         }
         
-        p.lead.text-light {
+        p.lead.text-light.item-2 {
             margin-left: 25px;
             font-size: 14px;
             line-height: 25px;
@@ -327,6 +351,11 @@ div.row.ads {
 
         .col-md-6.second-image {
             margin-top: -50px;
+        }
+
+        p.lead.text-dark.item-4 {
+            font-size: 13px;
+            line-height: 25px;
         }
         
 
