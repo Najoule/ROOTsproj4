@@ -179,7 +179,6 @@ p.lead.text-light.item-2 {
     font-size: 16px;
     letter-spacing: 2px;
     margin-left: 130px;
-    padding: 18px;
 }
 
 .col-md-6.second-image {
@@ -263,16 +262,46 @@ p.lead.text-dark.item-4 {
     text-align: center;
 }
 
-a.btn.btn-success.btn-lg.rounded-pill {
+a.btn.btn-success.btn-lg.rounded-pill.item-4 {
     background-color: #85be27;
     margin-top: 20px;
     margin-left: 390px;
+    margin-bottom: 40px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 16px;
     border: none;
-    padding: 20px;
     letter-spacing: 2px;
 }
+
+.contact-footer {
+    padding: 100px 0;
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+h1.footer-heading {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-align: center;
+}
+
+i.fa.fa-phone {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+
+}
+
+i.fa.fa-envelope {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.small-print p {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    padding: 50px;
+}
+
 
 @media only screen and (max-width: 768px) 
     /* For mobile phones: */ {
@@ -356,6 +385,15 @@ a.btn.btn-success.btn-lg.rounded-pill {
         p.lead.text-dark.item-4 {
             font-size: 13px;
             line-height: 25px;
+        }
+
+        a.btn.btn-success.btn-lg.rounded-pill.item-4 {
+            margin-left: 100px;
+            margin-bottom: 50px;
+        }
+
+        .small-print p {
+            font-size: 13px;
         }
         
 
