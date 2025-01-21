@@ -20,12 +20,6 @@ body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
-hr {
-    text-align: left;
-    width: 100%;
-    margin-left: 0;
-}
-
 .navbar-brand img {
     width: 40px;
     height: 30px;
@@ -44,7 +38,7 @@ header {
    min-height: auto;
    text-align: center;
    color: #fff;
-   background-image: url("amazing-sunset-hills-mountains.jpg");
+   background-image: url("Images/amazing-sunset-hills-mountains.jpg");
    background-position: center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -106,10 +100,24 @@ header .header-content {
     
 }
 
-.row img {
-    margin-left: 350px;
+.icon-apple {
+    margin-bottom: 60px;
+}
+
+.icon-apple img {
+    margin-top: 80px;
+    text-align: center;
     width: 60px;
     height: 60px;
+}
+
+.icon-apple h2 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    margin-top: 20px;
+}
+
+.icon-apple p {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .content-heading h2 {
@@ -130,7 +138,7 @@ header .header-content {
 .img-fluid.rounded-circle.item-1 {
     width: 400px;
     height: 400px;
-    margin-left: 130px;
+    margin-left: 10px;
     padding: 70px 0;
     
 }
@@ -225,19 +233,19 @@ div.row.ads {
 }
 
 .unleash.item-1 {
-    background: url("exam-school-with-student-s-taking-educational-admission-test-class-thinking-hard-writing-ans_756748-16697.jpg");
+    background: url("Images/exam-school-with-student-s-taking-educational-admission-test-class-thinking-hard-writing-ans_756748-16697.jpg");
     background-size: cover;
 	background-position: 50% 50%;
 }
 
 .synergize.item-2 {
-    background: url("worship.jpg");
+    background: url("Images/worship.jpg");
     background-size: cover;
 	background-position: 50% 50%;
 }
 
 .item-3 {
-    background: url("istock-1022048344-1024x683.jpg");
+    background: url("Images/worship.jpg");
     background-size: cover;
 	background-position: 50% 50%;
 }
@@ -355,6 +363,14 @@ i.fa.fa-envelope {
             font-size: 16px;
         }
 
+        .icon-apple {
+            padding-top: 60px;
+        }
+
+        .icon-apple p {
+            font-size: 14px;
+        }
+
         .row img {
             margin: auto;
             width: 60px;
@@ -410,7 +426,7 @@ i.fa.fa-envelope {
         }
 
         .col-md-6.second-image {
-            margin-top: -50px;
+            margin: auto;
         }
 
         p.lead.text-dark.item-4 {
