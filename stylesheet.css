@@ -56,13 +56,11 @@ header .header-content {
 .header-content-inner h1 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 67px;
-    text-align: center;
     margin-top: 260px;
 }
 
 .header-content-inner p {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    text-align: center;
 }
 
 .btn.btn-primary.btn-lg.rounded-pill {
@@ -94,8 +92,6 @@ header .header-content {
 
 .product-intro {
     background-color: #85be27;
-    color: #fff;
-    text-align: center;
     width: 100%;
     
 }
@@ -105,30 +101,17 @@ header .header-content {
 }
 
 .icon-apple img {
-    margin-top: 80px;
-    text-align: center;
+    margin-top: 60px;
     width: 60px;
     height: 60px;
 }
 
 .icon-apple h2 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    margin-top: 20px;
 }
 
 .icon-apple p {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
-
-.content-heading h2 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    margin: 20px;
-}
-
-.content-heading p {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    text-align: center;
-    
 }
 
 .container-intro {
@@ -150,7 +133,6 @@ header .header-content {
 
 p.lead.text-muted.item-1 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    text-align: left;
 }
 
 .btn.btn-success.btn-lg.rounded-pill.item-1 {
@@ -377,17 +359,6 @@ i.fa.fa-envelope {
             height: 60px;
         }
 
-        .content-heading h2 {
-            font-size: 18px;
-        }
-
-        .content-heading p {
-            font-size: 14px;
-            text-align: center;
-            margin: 25px 20px 0 20px;
-            line-height: 25px;
-        }
-
         .img-fluid.rounded-circle.center-block.item-1 {
             width: 400px;
             height: 400px;
@@ -430,12 +401,15 @@ i.fa.fa-envelope {
         }
 
         p.lead.text-dark.item-4 {
-            font-size: 13px;
+            font-size: 16px;
             line-height: 25px;
+            margin: 10px;
+            
         }
 
         a.btn.btn-success.btn-lg.rounded-pill.item-4 {
-            margin-left: 100px;
+            margin: auto;
+            margin-left: 120px;
             margin-bottom: 50px;
         }
 
