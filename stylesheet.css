@@ -152,7 +152,6 @@ p.lead.text-muted.item-1 {
 
 p.lead.text-light.item-2 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    text-align: left;
     margin-left: 130px;
 }
 
@@ -256,7 +255,6 @@ p.lead.text-dark.item-4 {
 a.btn.btn-success.btn-lg.rounded-pill.item-4 {
     background-color: #85be27;
     margin-top: 20px;
-    margin-left: 390px;
     margin-bottom: 40px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 16px;
@@ -382,22 +380,25 @@ i.fa.fa-envelope {
         }
 
         .item-2-header {
+            text-align: left;
             margin-left: 25px;
             margin-top: 60px;
         }
         
         p.lead.text-light.item-2 {
+            text-align: left;
             margin-left: 25px;
             font-size: 14px;
             line-height: 25px;
         }
         
         .btn.btn-light.btn-lg.rounded-pill {
-            margin-left: 25px;
+            position: relative;
+            right: 275px; 
         }
 
         .col-md-6.second-image {
-            margin: auto;
+            align-items: flex-start;
         }
 
         p.lead.text-dark.item-4 {
