@@ -409,9 +409,7 @@ i.fa.fa-envelope {
         }
 
         a.btn.btn-success.btn-lg.rounded-pill.item-4 {
-            margin: auto;
-            margin-left: 120px;
-            margin-bottom: 50px;
+            margin: 20px 0 20px 20px;
         }
 
         .small-print p {
